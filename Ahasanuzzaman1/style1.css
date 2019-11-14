@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0
+	font-family:sans-serif;
+}
+
+header{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	right: 0;
+	margin-top: 0px;
+	padding: 0;
+	font-size: 30px;
+	position: absolute;
+}
+
+ul li{
+	display: inline-block ;
+	list-style: none;
+}
+
+ul li a{
+	line-height: 80px;
+ 	color: #ff6347;
+ 	padding: 5px 20px;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	transition: .5s;
+ 	border: 1px outset #fff;
+}
+ul li a:hover{
+	background-color:#fff;
+}
+.slideshow{
+	position: relative;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+}
+#slideimage{
+	width: 100%;
+	height: 100%;
+}
